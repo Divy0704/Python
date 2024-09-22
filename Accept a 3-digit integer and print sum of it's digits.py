@@ -17,15 +17,15 @@ Sum of digits of 123 is 6
 
 num = int(input("entre the 3 digit number: "))
 temp = num
-su = 0
+sum = 0
 ld = temp % 10
-su = su + ld
+sum = sum + ld
 temp = temp // 10
 ld = temp % 10
-su = su + ld
+sum = sum + ld
 temp = temp // 10
 ld = temp % 10
-su = su + ld
+sum = sum + ld
 temp = temp // 10
-print(" sum of digit :" , su)
+print(" sum of digit :" , sum)
 
